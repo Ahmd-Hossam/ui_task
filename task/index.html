@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--------------------------------------------------- start aside bar --------------------->
+    <aside>
+        <div class="logo">
+            <img src="imgs/logo.PNG" alt="logo">
+            <select name="" id="">
+                <option value="Pm"> Pm </option>
+                <option value="Am"> Am </option>
+            </select>
+        </div>
+        <ul class="list">
+            <li>   <i class="fas fa-briefcase"></i>             <a href="#" class="back"> back to projects </a> <h4> east town (p2)</h4>     </li>
+            <li>  <i class="fas fa-align-justify"></i>          <a href="#" class="tab"> tab1 </a>     </li>
+            <li>  <i class="fas fa-home">    </i>               <a href="#" class="tab"> tab2 </a>    </li>
+            <li id='show'> <i class="fas fa-synagogue"></i>     <a href="#" class="tab"> tab3 </a>    </li>
+            <li>  <i class="far fa-file"></i>                   <a href="#" class="tab"> tab4  </a>  </li>
+        </ul>
+    </aside>
+    <!---------------------------------------------------- end aside bar ---------------------->
+
+
+    <!---------------------------------------------------- start header  ---------------------->
+    <header>
+        <div>
+            <h6> technical office <span>east town (p2)</span></h6>
+        </div>
+        <div class='links'>
+            <a href="#"> English </a>
+            <a href="arabic.index.html"> عربي </a>
+        </div>
+    </header>
+    <!---------------------------------------------------- end header  ---------------------->
+
+
+
+    <!---------------------------------------------------- start container -------------------->
+    <section class='se submittal' id="submittal">
+        <div>
+            <!------------------ start main title -->
+            <div class="title">
+                <h2> submittal </h2>
+                <p> uptown cairo-<span>technical office </span></p>
+            </div>
+            <!------------------- end main title --->
+
+            <div class="container"><!--end container-->
+                <!-------------------- start form --------->
+                <form name='myform'>
+                    <div class="block">
+                        <input class="sub" type="text" name="subject" placeholder="Subject">
+                        <span> subject</span>
+                    </div>
+
+                    <div class="block">
+                        <label> status </label> <input  class="radio" type="radio" name="check" checked value="Oppened">
+                        <label> opened </label> <input  class="radio" type="radio" name="check" value="Closed">
+                        <label> closed </label>
+                    </div>
+
+                    <div class="block">
+                        <input class="no" type="text" name="no" placeholder="No.">
+                        <span> no </span>
+                    </div>
+
+                    <div class="block">
+                        <input class="name" type="text" name="name" placeholder="Subject">
+                        <span> name </span>
+                    </div>
+                    
+                    <input class="add" type="button" value="add item">
+                </form> 
+                <!----------------------- end form  -------->
+
+
+                <!--------------- start middel title ------->
+                <div class="middle_title">
+                    <h2> previous cycle </h2>
+                </div>
+                <!----------------- end middel title ------>
+
+
+                <!--------------------- start table -------->
+                <table>
+                    <thead>
+                        <tr>
+                            <td> no      </td>
+                            <td> subject </td>
+                            <td> status  </td>
+                            <td> name    </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- created from js -->
+                    </tbody>
+                </table>
+                <!--------------------- end table -------->
+            </div><!--end container-->
+        </div>
+    </section>
+
+    <div class="to_top" id="top" title="to top">
+        <i class="fas fa-long-arrow-alt-up"></i>
+    </div>
+<!--------------------------------- end main content ----------------------->
+
+    <script src='js/scripts.js'></script>
+</body>
+</html>

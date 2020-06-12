@@ -1,0 +1,109 @@
+/************** stat imports ***********/
+/****************** start colors ************************/
+.firstLitter {
+  display: inline-block;
+}
+
+.firstLitter::first-letter {
+  text-transform: capitalize;
+}
+
+/************** end imports ************/
+/************************************************** start aside bar ************************/
+aside {
+  right: 0;
+}
+
+aside:hover .logo img {
+  height: 20px;
+  position: absolute;
+  right: 5px;
+  top: 15px;
+}
+
+aside:hover .logo select {
+  right: 77% !important;
+  text-align: left;
+}
+
+aside:hover .back {
+  right: 20px !important;
+}
+
+aside:hover .back::after {
+  left: 22px !important;
+}
+
+aside ul li {
+  position: relative;
+  text-align: right;
+  padding-right: 20px;
+}
+
+aside ul li:hover:after {
+  right: 0;
+}
+
+aside ul li i {
+  right: 25px !important;
+  top: 25px !important;
+}
+
+aside h4 {
+  margin: 25px 0 5px 10px !important;
+  font-weight: bold;
+}
+
+/******************************************************* end aside bar ******************/
+/******************************************************  start header *******************/
+header span {
+  font-size: 14px;
+}
+
+/****************************************************** end header *******************/
+header .links {
+  left: 5%;
+  text-align: left;
+}
+
+/***************************************************** start main content  **********/
+.submittal {
+  right: 6%;
+}
+
+.submittal form .block input[type="radio"]:first-of-type {
+  margin-left: -4px;
+  margin-right: 7px;
+}
+
+.submittal form .block input[type="radio"]:last-of-type {
+  margin-left: -4px;
+}
+
+.submittal form .block label {
+  width: 50px !important;
+}
+
+.submittal form .block label:first-of-type {
+  font-weight: bold;
+  color: #222;
+}
+
+.submittal form .block span {
+  right: 8px;
+}
+
+.submittal form .add {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.submittal table thead td:nth-of-type(2), .submittal table tbody td:nth-of-type(2) {
+  border-left: 2px solid #99999926 !important;
+}
+
+/***************************************************** start main content *******************/
+.to_top {
+  right: 95%;
+}
+/*# sourceMappingURL=arabic.css.map */

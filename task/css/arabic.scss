@@ -1,0 +1,96 @@
+
+/************** stat imports ***********/
+@import 'variabels';
+@import 'framwork';
+/************** end imports ************/
+
+
+/************************************************** start aside bar ************************/
+aside{
+    right:0;
+    &:hover{
+        .logo{
+            img{
+                height: 20px;
+                position: absolute;
+                right:5px;
+                top:15px;
+            }
+            select{
+                right:77% !important;
+                text-align: left;
+            }
+        }
+        .back{
+            right: 20px !important;
+            &::after{
+                left:22px !important;
+            }
+        }
+    }
+    ul{
+        li{
+            position: relative;
+            text-align: right;
+            padding-right: 20px;
+            &:hover{
+                &:after{
+                    right:0;
+                }
+            }
+            i{
+                right: 25px !important;
+                top: 25px !important;
+            }
+        }
+    }
+    h4{
+        margin:25px 0 5px 10px !important;
+        font-weight: bold;
+    }
+}
+/******************************************************* end aside bar ******************/
+
+
+
+/******************************************************  start header *******************/
+header{ 
+    span{font-size: 14px }
+}
+/****************************************************** end header *******************/
+header{
+    .links{
+        left: 5%;
+        text-align: left;
+    }
+}
+
+/***************************************************** start main content  **********/
+.submittal{
+    right:6%;
+    form{/////////////////////////////////////////start form
+        .block{
+            input[type="radio"]{
+                &:first-of-type{ margin-left:-4px;margin-right:7px }
+                &:last-of-type{ margin-left:-4px }
+            }
+            label{ 
+                width:50px !important;
+                &:first-of-type{
+                    font-weight: bold;color:#222;
+                } 
+            }
+            span{ right:8px }
+        }
+        .add{ padding:10px;font-weight: bold }
+    } ////////////////////////////////////////////////// end form 
+
+
+    table{//////////////////////////////////////// start table
+        thead, tbody{td{ &:nth-of-type(2){ border-left:2px solid $border_color !important }}}
+    }/////////////////////////////////////////////end table 
+}
+/***************************************************** start main content *******************/
+.to_top{
+    right:95%;
+}
